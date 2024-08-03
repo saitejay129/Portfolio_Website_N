@@ -6,8 +6,6 @@ import WorkExperience from "./components/WorkExperience";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import 'devicon/devicon.min.css';
-
 
 import BG_GRADIENT from "./assets/wave.png";
 

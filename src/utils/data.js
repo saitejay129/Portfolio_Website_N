@@ -41,73 +41,46 @@ export const PROFILE_DATA = {
   website: "https://sai-portfolio.com",
 };
 
-export const SKILLS = [
-  {
-    id: "01",
-    icon: AiOutlineJava,
-    title: "Java",
-  },
-  {
-    id: "02",
-    icon: IoLogoPython,
-    title: "Python",
-  },
-  {
-    id: "03",
-    icon: BiLogoSpringBoot,
-    title: "Spring Boot",
-  },
-  {
-    id: "04",
-    icon: SiHibernate,
-    title: "Hibernate",
-  },
-  {
-    id: "05",
-    icon: IoLogoHtml5,
-    title: "HTML",
-  },
-  {
-    id: "06",
-    icon: IoLogoCss3,
-    title: "CSS",
-  },
-  {
-    id: "07",
-    icon: IoLogoJavascript,
-    title: "JavaScript",
-  },
-  {
-    id: "08",
-    icon: IoLogoReact,
-    title: "React JS",
-  },
-  {
-    id: "09",
-    icon: IoLogoAngular,
-    title: "Angular",
-  },
-  {
-    id: "10",
-    icon: IoLogoNodejs,
-    title: "Node JS",
-  },
-  {
-    id: "11",
-    icon: SiMongodb,
-    title: "MongoDB",
-  },
-  {
-    id: "12",
-    icon: SiOracle,
-    title: "Oracle DB",
-  },
-  {
-    id: "13",
-    icon: BiLogoMongodb,
-    title: "MongoDB",
-  },
-];
+export const SKILLS = {
+  frontend: [
+    { id: 1, icon: "html", title: "HTML" },
+    { id: 2, icon: "css", title: "CSS" },
+    { id: 3, icon: "javascript", title: "Javascript" },
+    { id: 4, icon: "angular", title: "Angular" },
+    { id: 5, icon: "react", title: "React" },
+    
+  ],
+
+  backend: [
+    { id: 1, icon: "java", title: "Java" },
+    { id: 2, icon: "python", title: "Python" },
+    { id: 3, icon: "nodejs", title: "Node JS" },
+    { id: 4, icon: "spring", title: "Spring" },
+    { id: 5, icon: "hibernate", title: "Hibernate" },
+    { id: 6, icon: "oracle", title: "Oracle" },
+    { id: 7, icon: "mysql", title: "MySQL" },
+    { id: 8, icon: "postgresql", title: "PostgreSQL" },
+    { id: 9, icon: "mongodb", title: "MongoDB" },
+    { id: 10, icon: "cassandra", title: "Cassandra" },
+    { id: 11, icon: "aws", title: "AWS" },
+    { id: 12, icon: "gcp", title: "GCP" },
+    //{ id: 11, icon: "azure", title: "Azure" },
+    { id: 13, icon: "kafka", title: "Kafka" },
+  ],
+
+  other: [
+    { id: 1, icon: "maven", title: "maven" },
+    { id: 2, icon: "jenkins", title: "Jenkins" },
+    { id: 3, icon: "docker", title: "Docker" },
+    { id: 4, icon: "kubernetes", title: "Kubernetes" },
+    { id: 5, icon: "git", title: "Git" },
+    { id: 6, icon: "junit", title: "JUnit" },
+    { id: 7, icon: "selenium", title: "Selenium" },
+    { id: 8, icon: "cucumber", title: "Cucumber" },
+
+    
+  ]
+};
 
 export const WORK_EXPERIENCE = [
   {
